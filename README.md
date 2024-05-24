@@ -1,5 +1,8 @@
 # 不同训练目标下语音增强性能对比
 
+## 数据集
+VoiceBank+Demand，采样率16khz
+
 ## 网络结构
 
 ![](./fig/model.png)
