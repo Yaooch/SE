@@ -4,7 +4,7 @@
 
 ![](./fig/model.png)
 
-图中以time_frames = 250为例
+图中以time_frames = 250为例，输入输出维度是[batch_size=1, channel=1, time_frames, fre_bins=257]
 
 ## 结果对比
 
