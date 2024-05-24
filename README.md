@@ -1,2 +1,48 @@
-# SE
-记录一个大学生的第一次语音增强项目（Record a college student's first speech enhancement project）
+# 不同训练目标下语音增强性能对比
+
+## 网络结构
+
+![](./fig/model.png)
+
+图中以time_frames = 250为例
+
+## 结果对比
+
+| 训练目标 | PESQ | STOI(%) |
+| :------: | :--: | :-----: |
+|  Noisy   | 1.97 |  92.1   |
+|   IBM    | 1.98 |  92.1   |
+|   IAM    | 2.51 |  92.9   |
+|   IRM    | 2.54 |  93.0   |
+|   PSM    | 2.58 |  93.3   |
+|   ORM    | 2.67 |  93.6   |
+
+## 语谱图及时域波形图
+
+干净语音：
+
+![](./fig/tf_clean.png)
+
+带噪语音：
+
+![](./fig/tf_noisy.png)
+
+ibm：
+
+![](./fig/tf_ibm.png)
+
+iam：
+
+![](./fig/tf_iam.png)
+
+irm：
+
+![](./fig/tf_irm.png)
+
+psm：
+
+![](./fig/tf_psm.png)
+
+orm：
+
+![](./fig/tf_orm.png)
