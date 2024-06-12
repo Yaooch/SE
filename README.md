@@ -9,6 +9,8 @@ VoiceBank+Demand，采样率16khz
 
 图中以time_frames = 250为例，输入输出维度是[batch_size=1, channel=1, time_frames, fre_bins=257]
 
+总参数量：26593
+
 ## 结果对比
 
 | 训练目标 | PESQ | STOI(%) |
